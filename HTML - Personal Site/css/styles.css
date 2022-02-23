@@ -1,6 +1,6 @@
 /* format of CSS Syntax Selector {property: value;} who { what: how }*/
 body {
-    background-color: #c0c0c0;/* browser have default css values and you can overwrite these values*/
+    background-color: #c0c0c0;/* browsers have default css values and you can overwrite these values*/
     /* chrome elements style sheet allows you to see the effects of your elements
     list of properties you can change
     https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
@@ -19,4 +19,37 @@ h1{
 }
 h3{
     color: #66BFBF;
+}/* applies properties to all tags */
+img{ 
+    background-color: transparent;
 }
+
+/**********Class selector***********/
+
+/*class selector starts with '.' 
+  class selector applies differnt properties with the same tag depending on the tag class name
+
+  "allows you to apply the same style to a group of IDs"
+*/
+.henhen:hover{
+    background-color: gold; /*this selector overrides the style in line 24*/
+}
+.resize{
+    width: 200px; 
+    height: 200px;
+}
+
+/***********ID selector***************/
+#heading{ /*The id selector uses the id attribute of an HTML element to select a specific element. id heading is more spcific*/
+    color: blue;
+}
+/*difference between the two is that only one instance of an id tag can be set
+you would use id to identify elements where there is only a single one of them on a particular page
+use classes when you want to apply the same style to a group of related items
+example name vs passport
+
+each html element can have more than one class but only one ID
+
+psedo classes
+allows you to change the state of an element
+*/

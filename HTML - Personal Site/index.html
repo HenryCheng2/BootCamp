@@ -8,20 +8,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Henry's personal site</title>
-   <link rel="stylesheet" href="css/styles.css"> <!-- applies all the styles externally in styles.css to the current page -->
+   <link rel="stylesheet" href="css/styles.css"> <!-- applies all the styles externally in styles.css to the current page the correct place to put this is in HEAD->
 </head>
-<!-- <p>paragraph<em> this is em</em> <strong>this is strong</strong></p> use <em> instead of <i> use <strong> instead of <b>-->
+<!- <p>paragraph<em> this is em</em> <strong>this is strong</strong></p> use <em> instead of <i> use <strong> instead of <b>-->
 <body><!-- structure text have shortcuts, Inject CSS code into body Style -->
     <table cellspacing="20">
         <tr>
-            <td>    <img src="hen_hen.png"width="200" height="200" alt="henhen profile picture"> </td>
+            <td>    <img class="henhen resize" src="hen_hen.png" alt="henhen profile picture"> </td> <!-- appling more than one class to an html element seperated by a space -->
             <td>    <h1>Henry Cheng</h1> <!-- level one heading --> <p><em> This is</em> a test website for the "Complete 2022 web development bootcamp" </p></td>
         </tr>
     </table>
 
 
     <hr>
-<h3>Education</h3> 
+<h3 id="heading">Education</h3> <!-- applies the id "heading to id" -->
         <ul> <!-- structure all code for organization-->
             <li>complete IOS bootcamp</li>
             <li>wayne state univsity</li>
@@ -50,7 +50,7 @@
     </table>
 <hr>
 <h4>Skills</h4>
-<table border="1px"> <!-- cellspacing spaces between cells -->
+<table border="1"> <!-- cellspacing spaces between cells -->
 <tr>
     <td>
         <table>
@@ -101,6 +101,8 @@
         <td>⭐⭐</td>
     </tr>
 </table>
+
+<br>
 
 <a href="hobbies.html">My hobbies</a> <!-- anchor tags -->
 <a href="contact.html">Contact me</a>
