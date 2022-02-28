@@ -1,0 +1,67 @@
+/* margins is the space outside div and pushes other divs away*/
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+}
+h1{
+    margin-top: 0;
+    /*fonts are limited depending on operating system some may not display
+     solution is font embedding */
+     font-family: Sacramento, sans-serif;
+     font-size: 5.62em;
+     /*em: size means 16 pixels and allows you to set font size dynamically. em and % allows the font to scale up with the browser, while static remains the same*/
+}
+h2{
+    font-family: Montserrat, sans-serif;
+}
+/* class selector*/
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    
+}
+.resize{
+    width: 150px; 
+    height: 150px;
+}
+.middle-container{
+font-size: 90px;
+}
+.bottom-container{
+
+}
+.extra-container{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    
+}
+.top-cloud{
+    position:absolute;
+    right:300px;
+    top: 50px;
+
+}
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+}
+div{
+    position: relative;
+}
+.pro{
+    text-decoration: underline;
+}
+.mountain{
+    position: relative;
+    /*
+    realative posisiton is adding a margin from get from its original position
+    absoulute posistion is adding a margin to its PARENT element and affects the flow of the html
+
+    */
+    left: 20px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+    <!-- favicon or favorite icon allows you to set an icon for tab in browser -->
+    <link rel="icon" href="favicon.ico">
+    
+    <!-- Font embedding from  https://fonts.google.com/?query=mont-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="top-container"><!-- content division element allows you to speperate content that can be structured and styled -->
+        <img src="images/cloud.png" class="top-cloud" alt="">
+        
+            <h1>I'm henry</h1>
+            <p>A <span class="pro">pro</span>grammer.</p>
+        
+        <!-- 
+            block elements <p> <h#> takes up the whole width of the paragraph 
+            <span> tag allows you to modify parts of elements within the block spans are in elements
+                issue with inline element is that you cannot change the width of the span
+                you can change block tag to inline by using the "display: inline" alternatively youcan use inline-block
+        -->
+
+        <!--positions: static(default), relative(pushes),absolute(parented),fixed(posistion remains the same)  -->
+        <img src="images/cloud.png" class="bottom-cloud"alt="">
+        <img src="images/mountain.png" class="mountain" alt="mountain image">
+    </div>
+<!-- box model a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. 
+     padding space between text inside the div
+     margin is the buffer zone outside of the border
+-->
+<div class="middle-container">
+    <div class="profile">
+      <img class="resize" src="images/hen_hen.png" alt="">
+      <h2>Hello.</h2>
+      <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="resize" src="images/tools-and-utensils.png" alt="">
+        <h3>Programming skills</h3>
+        <p>HTML, CSS, C++, Java</p>
+      </div>
+      <div class="skill-row">
+        <img class="" src="" alt="">
+        <h3>Lorem Ipsum Dolor</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <a class="btn" href="Henrycheng374@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+  
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/henry-cheng-cs/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <p>©Henry cheng.</p>
+  </div>
+  
+<!-- 
+<div>
+    <div class="middle-container">
+        
+    </div>
+    <div class="bottom-container">
+        
+    </div>
+    <div class="extra-container">
+        
+    </div>
+</div>
+-->
+</body>
+</html>
