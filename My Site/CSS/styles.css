@@ -3,17 +3,20 @@ body{
     margin: 0;
     text-align: center;
     font-family: Merriweather, sans-serif;
+    font-size: 200%;
 }
 h1{
-    margin-top: 0;
+    margin: 50px auto 0 auto;
     /*fonts are limited depending on operating system some may not display
      solution is font embedding */
      font-family: Sacramento, sans-serif;
-     font-size: 5.62em;
-     /*em: size means 16 pixels and allows you to set font size dynamically. em and % allows the font to scale up with the browser, while static remains the same*/
+     font-size: 5.62rem;
+     /*em: size means 16 pixels and allows you to set font size dynamically. em and % allows the font to scale up with the browser, while static remains the same
+     however if the parent element has a font size % it will affect the % size on the child element to get around this apply root em or rem when sizing text use rem*/
 }
 h2{
     font-family: Montserrat, sans-serif;
+    font-size: 2.5rem; /*one pixel is 16*/
 }
 /* class selector*/
 .top-container{
@@ -27,7 +30,7 @@ h2{
     height: 150px;
 }
 .middle-container{
-font-size: 90px;
+
 }
 .bottom-container{
 
